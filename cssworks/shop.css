@@ -1,0 +1,114 @@
+.page-heard {
+  background-image: url("../photo/ceo.jpg");
+  width: 100%;
+  height: 30vh;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+}
+
+.la-wok {
+  font-family: 'Times New Roman', Times, serif;
+  font-style: italic;
+  font-weight: bolder;
+  text-align: center;
+  padding-bottom: 5px;
+  color: whitesmoke;
+  border: 10px thin #e3e6f3;
+  font-size: 40px;
+
+}
+
+#more {
+  text-align: center;
+}
+
+#more a {
+  text-decoration: none;
+  background-color: rgb(187, 103, 103);
+  padding: 15px 20px;
+  border-radius: 4px;
+  color: white;
+  font-weight: 600;
+}
+
+#more a i {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+
+/*open sela*/
+#sela {
+  display: flex;
+  margin-top: 20px;
+
+}
+
+.small-img,
+#mainImg {
+  width: 100%;
+}
+
+
+#sela .photo1 {
+
+  width: 35%;
+  margin-right: 49px;
+}
+
+
+
+.smallImg {
+  display: flex;
+  justify-content: space-between;
+}
+
+.small1 {
+  flex-basis: 100px;
+  cursor: pointer;
+}
+
+#sela .pro-details {
+  width: 51%;
+  padding: 30px;
+}
+
+#sela .pro-details h5 {
+  padding: 40px 0 20px 0;
+}
+
+#sela .pro-details h3 {
+  font-size: 26px;
+}
+
+#sela .pro-details select {
+  display: block;
+  padding: 5px 10px;
+  margin-bottom: 10px;
+}
+
+#sela .pro-details input {
+  width: 50px;
+  height: 47px;
+  padding-left: 10px;
+  font-size: 16px;
+  margin-right: 10px;
+
+}
+
+#sela .pro-details input:focus {
+  outline: none;
+}
+
+#sela .pro-details button.norm {
+  background-color: rgb(187, 103, 103);
+  color: white;
+
+}
+
+#sela .pro-details span {
+  line-height: 25px;
+}

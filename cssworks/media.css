@@ -1,0 +1,281 @@
+@media (max-width:999px) {
+
+
+
+  .section-p1 {
+    padding: 40px 40px;
+  }
+
+  .topic {
+    display: none;
+  }
+
+  .JPG {
+    object-position: top;
+    width: 90px;
+    object-position: left;
+    top: 20px;
+    border-radius: 20px;
+    margin-right: 0px;
+  }
+
+  .shc {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: fixed;
+    top: 0px;
+    right: -200px;
+    height: 155vh;
+    width: 150px;
+    background-color: azure;
+    box-shadow: 0 30px 40px black;
+    padding: 0 0 10px;
+    transition: 0.4s;
+  }
+
+  .open {
+    right: 0px;
+  }
+
+
+
+  .shc li {
+    margin-bottom: 35px;
+    top: 26px;
+  }
+
+  #mune {
+    display: flex;
+    align-items: center;
+    background-color: #e3e6f3;
+
+  }
+
+  #mune i {
+    color: brown;
+    font-size: 30px;
+    padding-left: 20px;
+  }
+
+  #close {
+    display: initial;
+    position: absolute;
+    top: 0px;
+    color: brown;
+    font-size: 29px;
+    left: 0px;
+    margin-bottom: 30px;
+
+  }
+
+  .shop {
+    display: none;
+  }
+
+  #work {
+    height: 80vh;
+    padding: 0 40PX;
+    background-position: top 40% right 40%;
+
+  }
+
+  .what {
+    text-align: center;
+    height: 20vh;
+  }
+
+  #Opposite {
+    justify-content: center;
+  }
+
+  #offer .fe-box {
+    margin: 12px 18px;
+  }
+
+  .banner .bannerbox {
+
+    min-width: 100%;
+    height: 30vh;
+
+  }
+
+  .banner2 .bannerbox {
+
+    min-width: 110%;
+    height: 30vh;
+
+  }
+
+  #newsletter .signup {
+    width: 80%;
+  }
+
+  /*contant*/
+  #fromd {
+
+    padding: 40px !important;
+  }
+
+  #fromd form {
+    width: 52% !important;
+  }
+
+}
+
+@media (max-width:540px) {
+  .hearder {
+    padding: 10px 9px;
+  }
+
+  #work {
+
+    padding: 0 30PX;
+    background-position: 55%;
+  }
+
+  h2 {
+    font-size: 32px;
+  }
+
+  #work h1 {
+    font-size: 38px;
+
+  }
+
+  #z {
+
+    font-size: 38px;
+  }
+
+  .what h3 {
+
+    font-size: 18px;
+    padding-bottom: 60px;
+
+  }
+
+  .We {
+    padding-top: 0px;
+  }
+
+  #Opposite {
+    width: 155px;
+    margin: 0px;
+  }
+
+  .la {
+    font-size: 30p;
+    padding-bottom: 5px;
+
+  }
+
+  .product1 .con {
+    min-width: 100%;
+
+  }
+
+  .banner .bannerbox {
+    height: 39vh;
+  }
+
+  .banner .bannerbox2 {
+    margin-top: 20px;
+  }
+
+  #newsletter .signup {
+    width: 100%;
+  }
+
+  #newsletter {
+    padding: 40px 20px;
+  }
+
+  footer .copy p {
+    text-align: start;
+
+  }
+
+  /*open sela*/
+  #sela {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #sela .pro-details {
+    width: 100% !important;
+    padding: 0px !important;
+  }
+
+  #sela .photo1 {
+    width: 100% !important;
+    margin-right: 0px !important;
+  }
+
+  /*ABOUT PAGE*/
+  #about .aboutht {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+  }
+
+  #about {
+    padding: 100px 20px 0 20px;
+  }
+
+  #about .about-photo {
+    width: 200% !important;
+    margin-right: 0% !important;
+    margin-bottom: 29px;
+  }
+
+  #about .details {
+    width: 200% !important;
+  }
+
+  /*contact*/
+  .contact-details {
+    flex-direction: column;
+  }
+
+  .contact-details .detailsadss {
+    width: 100% !important;
+    margin-bottom: 30px;
+  }
+
+  .contact-details .map {
+    width: 100% !important;
+  }
+
+  #fromd {
+
+    margin: 10px;
+    padding: 30px 10px;
+    flex-wrap: wrap;
+  }
+
+  #fromd form {
+    width: 100% !important;
+    margin-bottom: 30px;
+  }
+
+  .maker {
+    display: block !important;
+    padding-bottom: 20px m !important;
+
+  }
+
+  /*Cart totals*/
+  #cart {
+    display: flex;
+    flex-direction: column;
+
+  }
+
+  #Subtotal {
+    width: 100% !important;
+    padding: 20px !important;
+  }
+}
